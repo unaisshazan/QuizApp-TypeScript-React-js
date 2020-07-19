@@ -16,10 +16,19 @@ console.log("hellow");
     // a("z");
 
     
-    function a(b:number) { //x:type
+    // function a(b : number) { //x:type
 
 
-        return b / 2
-    }
-    //a(2)
-    a(2);
+    //     return b / 2
+    // }
+    // //a(2)
+    // a(2);
+
+    let firstName: string = "Unais";
+    
+    let lastName: string = "ALi";
+    
+    let age: number = 20;
+    
+    let isActiveStudent: boolean = true; 
+    let courses:[string]=["TS","JS","React"];

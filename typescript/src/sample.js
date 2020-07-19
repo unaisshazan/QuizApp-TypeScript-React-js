@@ -14,4 +14,4 @@ function a(b) {
     return b / 2;
 }
 //a(2)
-a("z");
+a(2);
