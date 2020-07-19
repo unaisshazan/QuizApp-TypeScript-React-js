@@ -7,7 +7,7 @@ document.write("hello from Ts");
 
 // console.log(isEven(10))
 
-let a:any =1;
-a=true;
-a=[1,2,3];
-console.log(a)
+// let a:any =1;
+// a=true;
+// a=[1,2,3];
+// console.log(a)
