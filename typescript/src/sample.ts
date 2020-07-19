@@ -34,4 +34,4 @@ console.log("hellow");
     let courses: string[]=["TS","JS","React"]; //array method array[]=['a','b','c']
 
 
-    
+    let fullname: number=firstName + age;
