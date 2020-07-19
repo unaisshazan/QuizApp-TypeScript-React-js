@@ -10,8 +10,14 @@ console.log("hellow");
 // }
 // //a(2)
 // a("z");
-function a(b) {
-    return b / 2;
-}
-//a(2)
-a(2);
+// function a(b : number) { //x:type
+//     return b / 2
+// }
+// //a(2)
+// a(2);
+var firstName = "Unais";
+var lastName = "ALi";
+var age = 20;
+var isActiveStudent = true;
+var courses = ["TS", "JS", "React"]; //array method array[]=['a','b','c']
+var fullname = firstName + age;
