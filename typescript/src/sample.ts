@@ -32,3 +32,6 @@ console.log("hellow");
     
     let isActiveStudent: boolean = true; 
     let courses: string[]=["TS","JS","React"]; //array method array[]=['a','b','c']
+
+
+    
