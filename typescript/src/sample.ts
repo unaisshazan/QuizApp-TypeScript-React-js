@@ -31,4 +31,4 @@ console.log("hellow");
     let age: number = 20;
     
     let isActiveStudent: boolean = true; 
-    let courses: string[]=["TS","JS","React"];
+    let courses: string[]=["TS","JS","React"]; //array method array[]=['a','b','c']
