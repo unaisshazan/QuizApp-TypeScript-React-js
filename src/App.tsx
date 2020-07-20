@@ -6,7 +6,9 @@ import './App.css';
 function App() {
   useEffect(() => {
     
-   getQuizDetails(5,'easy');
+ async function fetchData(){
+   const questions= await getQuizDetails(5,'easy'); 
+ }
   }, []);
 
   return (
