@@ -1,12 +1,13 @@
+<h1> Watch Live</h1>
+http://quiz-question-reactjs.surge.sh/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-##what  i have done to make quiz App
-##1)Ts template
-##2)Api/Json to bring questions
-##3)Render Each question
-##4)user can submit give question
-##5)Test validation/checking
-##6)UX/UI
+## what  i have done to make quiz App
+## 1)Ts template
+## 2)Api/Json to bring questions
+## 3)Render Each question
+## 4)user can submit give question
+## 5)Test validation/checking
+## 6)UX/UI
 ## Available Scripts
 
 In the project directory, you can run:
