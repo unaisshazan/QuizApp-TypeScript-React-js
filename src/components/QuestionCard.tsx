@@ -11,7 +11,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                 <h4>{question}</h4>
             </div>
            
-            <form onSubmit={callback}>
+            <form onSubmit={callback} className="text-center">
                
                 {
                     options.map((opt: string, ind: number) => {

@@ -2,6 +2,7 @@
     max-width: 400px;
     min-height: 450px;
     margin: 0 auto;
+    background-color: black;
   
     color: white;
   
@@ -10,7 +11,9 @@
     padding: 15px 50px;
   }
   .text-center {
-    text-align: center;
-    color: aqua;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background-color: wheat;
   }
   
