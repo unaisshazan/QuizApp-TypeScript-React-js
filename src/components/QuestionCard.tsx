@@ -18,6 +18,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                         return (
                             <div key={ind}>
                                 <FormLabel>
+                                    <RadioGroup >
                                     <input
                                     
                                         type="Radio"
@@ -25,6 +26,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                                         value={opt}
                                     />
                                     {opt}
+                                    </RadioGroup >
                                 </FormLabel>
                             </div>
                         )
