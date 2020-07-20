@@ -5,8 +5,8 @@ import Button from '@material-ui/core/Button';
 import '../App.css'
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
-        <div className="question-container">
-              <Paper elevation={1} className="container">
+        <div className="container">
+              <Paper elevation={3} className="container">
             <div className="text-center">
                 <h4>{question}</h4>
             </div>
