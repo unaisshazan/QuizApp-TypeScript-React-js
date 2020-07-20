@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import {getQuizDetails} from './quiz_services';
-import QuestionCard from '../components/QuestionCard';
+import QuestionCard from './components/QuestionCard';
 import './App.css';
 import { Quiz } from '../types/quiz_types';
 
