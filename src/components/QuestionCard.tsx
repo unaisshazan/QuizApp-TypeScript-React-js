@@ -7,6 +7,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
     return (
         <div className="container">
               <Paper elevation={3} className="container">
+                  <h3>Quiz Competition </h3>
             <div className="text-center">
                 <h4>{question}</h4>
             </div>
@@ -36,7 +37,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                         )
                     })
                 }
-               <center> <Button style={{marginTop:'5%'}} variant="contained" color="secondary" type="submit">Submit</Button> </center>
+         <Button style={{marginTop:'5%'}} variant="contained" color="secondary" type="submit">Submit</Button> 
                 
             </form>
             </Paper>
