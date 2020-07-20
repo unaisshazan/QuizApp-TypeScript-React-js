@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { getQuizDetails } from './quiz_services';
-import { QuizType } from './types/quiz_types';
-import QuestionCard from './components/QuestionCard';
+import { getQuizDetails } from './services/quiz_service';
+import { QuizType } from './Types/quiz_types';
+import QuestionCard from './Components/QuestionCard';
 
 function App() {
 

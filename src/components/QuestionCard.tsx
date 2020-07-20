@@ -1,5 +1,5 @@
 import React from 'react';
-import { questionPropsType } from '../types/quiz_types'
+import { questionPropsType } from './../Types/quiz_types'
 
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
