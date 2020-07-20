@@ -6,7 +6,7 @@ import '../App.css'
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
         <div className="question-container">
-              <Paper elevation={1} className='App'>
+              <Paper elevation={1} className="container">
             <div className="question">
                 <h4>{question}</h4>
             </div>
