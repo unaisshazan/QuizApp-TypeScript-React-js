@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const QuestionCard=()=>{
 
@@ -9,4 +9,4 @@ return <div className ="quest-container">
 
 </div>
 }
-export default QuestionCard
+export default QuestionCard;

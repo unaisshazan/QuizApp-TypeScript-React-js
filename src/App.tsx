@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react';
 import {getQuizDetails} from './quiz_services';
-import QuestionCard from '../Components/QuestionCard';
+import QuestionCard from '../components/QuestionCard';
 import './App.css';
 import { Quiz } from '../types/quiz_types';
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-        <QuestionCard/>
+        <QuestionCard />
   
     </div>
   );
