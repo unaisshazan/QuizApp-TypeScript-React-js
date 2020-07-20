@@ -36,7 +36,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                         )
                     })
                 }
-                <Button style={{marginTop:'5%'}} variant="contained" color="secondary" type="submit">Submit</Button>
+               <center> <Button style={{marginTop:'5%'}} variant="contained" color="secondary" type="submit">Submit</Button> </center>
                 
             </form>
             </Paper>
