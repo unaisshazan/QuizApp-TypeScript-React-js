@@ -3,6 +3,7 @@ import './App.css';
 import { getQuizDetails } from './services/quiz_service';
 import { QuizType } from './Types/quiz_types';
 import QuestionCard from './Components/QuestionCard';
+import Progress from './Progress'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
   }
 
   if (!quiz.length)
-    return <h3>Loading.. </h3>
+    return <Progress/>
 
   return (
     <div className="App">
