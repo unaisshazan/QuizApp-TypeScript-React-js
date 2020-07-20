@@ -1,12 +1,34 @@
 import React from 'react';
+import { questionPropsType } from '../types/quiz_types'
 
-const QuestionCard=()=>{
+const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
+    return (
+        <div className="question-container">
+            <div className="question">
+                <h4>{question}</h4>
+            </div>
 
-
-return <div className ="quest-container">
-    <h1>Hello</h1>
-
-
-</div>
+            <form onSubmit={callback}>
+                {
+                    options.map((opt: string, ind: number) => {
+                        return (
+                            <div key={ind}>
+                                <label>
+                                    <input
+                                        type="radio"
+                                        name="opt"
+                                        value={opt}
+                                    />
+                                    {opt}
+                                </label>
+                            </div>
+                        )
+                    })
+                }
+                <input type="submit" />
+            </form>
+        </div>
+    )
 }
+
 export default QuestionCard;
