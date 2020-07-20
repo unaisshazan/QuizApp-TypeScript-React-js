@@ -2,7 +2,7 @@ import React from 'react';
 import { questionPropsType } from './quiz_types';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
-import '../App.css'
+import './App.css'
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
         <div className="container">
