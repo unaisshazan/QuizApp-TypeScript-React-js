@@ -8,7 +8,9 @@ function App() {
     
  async function fetchData(){
    const questions= await getQuizDetails(5,'easy'); 
+   console.log(questions)
  }
+ fetchData();
   }, []);
 
   return (
