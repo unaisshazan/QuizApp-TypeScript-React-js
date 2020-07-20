@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getQuizDetails } from './services/quiz_service';
-import { QuizType } from './Types/quiz_types';
-import QuestionCard from './Components/QuestionCard';
+import { QuizType } from './quiz_types';
+import QuestionCard from './QuestionCard';
 import Progress from './Progress'
 
 function App() {

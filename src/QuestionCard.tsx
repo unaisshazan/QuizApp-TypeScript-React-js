@@ -1,5 +1,5 @@
 import React from 'react';
-import { questionPropsType } from './../Types/quiz_types'
+import { questionPropsType } from './quiz_types';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import '../App.css'
