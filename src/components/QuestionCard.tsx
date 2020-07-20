@@ -7,7 +7,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
     return (
         <div className="question-container">
               <Paper elevation={1} className="container">
-            <div className="question">
+            <div className="text-center">
                 <h4>{question}</h4>
             </div>
            
@@ -17,7 +17,7 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                     options.map((opt: string, ind: number) => {
                         return (
                        
-                            <div key={ind}>
+                            <div key={ind} className="text-center">
                        
                                 <label>
                                     <input
