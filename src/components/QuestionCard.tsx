@@ -2,10 +2,11 @@ import React from 'react';
 import { questionPropsType } from './../Types/quiz_types'
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
+import '../App.css'
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
         <div className="question-container">
-              <Paper elevation={1} style={{height:'400px',width:'400px'}}>
+              <Paper elevation={1} className='App'>
             <div className="question">
                 <h4>{question}</h4>
             </div>
