@@ -5,16 +5,19 @@ import Button from '@material-ui/core/Button';
 const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback }) => {
     return (
         <div className="question-container">
+              <Paper elevation={1} style={{height:'400px',width:'400px'}}>
             <div className="question">
                 <h4>{question}</h4>
             </div>
-
+           
             <form onSubmit={callback}>
+               
                 {
                     options.map((opt: string, ind: number) => {
                         return (
-                            <Paper elevation={1}>
+                       
                             <div key={ind}>
+                       
                                 <label>
                                     <input
                                     
@@ -26,14 +29,18 @@ const QuestionCard: React.FC<questionPropsType> = ({ question, options, callback
                                     />
                                     {opt}
                                 </label>
+                               
                             </div>
-                            </Paper>
+                           
                         )
                     })
                 }
                 <Button variant="contained" color="secondary" type="submit">Submit</Button>
+                
             </form>
+            </Paper>
         </div>
+    
     )
 }
 
