@@ -1,5 +1,5 @@
 
-import {Quiz,QuestionType} from './../types/quiz_types';
+import {Quiz} from './../types/quiz_types';
 
 export const  getQuizDetails=async (totalQuestions: number,level: string):Promise<Quiz[]>=>{
  const res = await fetch(`https://opentdb.com/api.php?amount=${totalQuestions}&difficulty=${level}&type=multiple`)
