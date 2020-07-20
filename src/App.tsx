@@ -4,6 +4,7 @@ import { getQuizDetails } from './services/quiz_service';
 import { QuizType } from './quiz_types';
 import QuestionCard from './QuestionCard';
 import Progress from './Progress'
+import Navbar from './Navbar'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar/>
       <QuestionCard
         options={quiz[currentStep].option}
         question={quiz[currentStep].question}
