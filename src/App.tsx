@@ -1,15 +1,14 @@
 import React,{useEffect} from 'react';
-import logo from './logo.svg';
+import {getQuizDetails} from './quiz_services';
+
 import './App.css';
 
 function App() {
   useEffect(() => {
     
-    return () => {
-      
-    }
+   getQuizDetails(5,'easy');
   }, []);
-  
+
   return (
     <div className="App">
      
