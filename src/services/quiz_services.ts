@@ -1,5 +1,5 @@
 
-import { Quiz } from './types/quiz_types';
+import { Quiz } from '../types/quiz_types';
 
 export const shuffleArray=(array: any[])=>
 [...array].sort(()=> Math.random() - 0.5)

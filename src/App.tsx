@@ -2,7 +2,7 @@ import React,{useEffect,useState} from 'react';
 import {getQuizDetails} from './quiz_services';
 import QuestionCard from './components/QuestionCard';
 import './App.css';
-import { Quiz } from '../types/quiz_types';
+import { Quiz } from './types/quiz_types';
 
 function App() {
   let [quiz,setQuize]=useState<Quiz[]>([])
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-        <QuestionCard />
+        <QuestionCard/>
   
     </div>
   );
